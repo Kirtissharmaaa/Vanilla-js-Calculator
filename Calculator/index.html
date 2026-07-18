@@ -8,7 +8,7 @@
 </head>
 <body>
     <div id="calculator">
-        <input id="display" readonly>
+        <input id="display" placeholder="0" readonly>
         <div id="keys">
             <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
             <button onclick="appendToDisplay('7')">7</button>
@@ -25,7 +25,10 @@
             <button onclick="appendToDisplay('/')" class="operator-btn">/</button>
             <button onclick="appendToDisplay('0')">0</button>
             <button onclick="appendToDisplay('.')">.</button>
-            <button onclick="calculate()">=</button>
+            <button onclick="calculate()" id="equal">=</button>
+            <button onclick="percentage()" class="operator-btn">%</button>
+            <button onclick="changeSign()" class="operator-btn">±</button>
+            <button onclick="backspace()" class="operator-btn">⌫</button>
             <button onclick="clearDisplay()" class="operator-btn">C</button>
         </div>
 
