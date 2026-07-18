@@ -5,11 +5,12 @@ A sleek, fully functional mini web calculator built using pure HTML5, CSS3, and 
 ---
 
 ##  Features
-* *Full Math Operations:* Handles addition, subtraction, multiplication, division, and decimals.
+* *Full Math Operations:* Handles addition, subtraction, multiplication, division, percentage, decimal, and sign toggle.
+* *Backspace Functionality:* Easily delete the last entered character without clearing the entire expression.
 * *Glassmorphism Design:* Styled with a modern aesthetic featuring backdrop-filter blurs, radial gradients, and fluid drop shadows.
-* *CSS Grid Layout:* Uses a perfectly structured $4 \times 4$ grid system for clean, uniform button alignments.
+* *Responsive CSS Grid Layout:* Built with a clean $4 \times 4$ grid that adapts smoothly to different screen sizes and devices.
 * *Error Handling:* Protects against invalid math equations (e.g., dividing by zero or broken syntax) by gracefully displaying an Error message.
-* *Fully Responsive:* Centered flexbox viewport layout that works comfortably across different screens.
+* *Fully Responsive:* Fully responsive layout centered with Flexbox for a consistent experience across desktops, tablets, and smartphones.
 
 ---
 
